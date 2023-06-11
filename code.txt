@@ -1,0 +1,36 @@
+// create a dialog with ok and cancel buttons and a question icon
+MessageBox dialog =
+    new MessageBox(shell, SWT.ICON_QUESTION | SWT.OK| SWT.CANCEL);
+dialog.setText("My info");
+dialog.setMessage("Do you really want to do this?");
+
+// open dialog and await user selection
+returnCode = dialog.open();
+
+
+
+// standard message dialogs
+MessageDialog.openConfirm(shell, "Confirm", "Please confirm");
+MessageDialog.openError(shell, "Error", "Error occured");
+MessageDialog.openInformation(shell, "Info", "Info for you");
+MessageDialog.openQuestion(shell, "Question", "Really, really?");
+MessageDialog.openWarning(shell, "Warning", "I am warning you!");
+
+
+// customized MessageDialog with configured buttons
+MessageDialog dialog = new MessageDialog(shell, "My Title", null,
+    "My message", MessageDialog.ERROR, new String[] { "First",
+    "Second", "Third" }, 0);
+int result = dialog.open();
+System.out.println(result);
+
+
+boolean result =
+    MessageDialog.openConfirm(shell, "Confirm", "Please confirm");
+
+if (result){
+ // OK Button selected do something
+} else {
+ // Cancel Button selected do something
+}
+---

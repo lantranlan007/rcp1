@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Task_ui_plugin_project
+Bundle-SymbolicName: task_ui_plugin_project;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: task.ui.plugin.project
+Bundle-RequiredExecutionEnvironment: JavaSE-17

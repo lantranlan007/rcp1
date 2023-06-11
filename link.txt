@@ -1,0 +1,6 @@
+https://www.ibm.com/docs/nl/developer-for-zos/9.5.1?topic=SSQ2R2_9.5.1/org.eclipse.emf.doc/references/overview/EMF.Edit.htm
+
+https://www.vogella.com/tutorials/eclipse.html
+--
+
+

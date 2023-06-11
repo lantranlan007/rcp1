@@ -1,0 +1,8 @@
+INDEX VERSION 1.132+C:\Users\lantr\OneDrive\Desktop\rcppractice1\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2848303675.index
+394356869.index
+455656614.index
+2841065794.index
+1817443661.index
+2020509551.index
